@@ -1,10 +1,13 @@
-import { dbService } from "fbase";
+import { v4 as uuidv4 } from 'uuid';
+import { dbService, storageService } from "fbase";
 import React, { useEffect, useState } from "react";
 import Nweet from "../components/Nweet";
+import NweetFactory from 'components/NweetFactory';
 
 function Home({userObj}) {
-    const [nweet, setNweet] = useState("");
+    
     const [nweets, setNweets] = useState([]);
+
     
 
     useEffect(() => {
@@ -17,36 +20,11 @@ function Home({userObj}) {
         });    
     }, []);
 
-    const onSubmit = async (event) => {
-        event.preventDefault();
-        await dbService.collection("nweets").add({
-            text:nweet,
-            createdAt: Date.now(),
-            creatorId: userObj.uid,
-        });
-        setNweet("");
-    };
-
-    const onChange = (event) => {
-        const {target: {value}} = event; 
-        setNweet(value);
-    };
-
-    const onFileChange = (event) => {
-        const {target:{files},
-        } = event;
-        const theFile = files[0];
-        const reader = new FileReader();
-        reader.readAsDataURL(theFile);
-    }
+    
 
     return (
         <>
-        <form onSubmit={onSubmit}>
-            <input value={nweet} onChange={onChange} type="text" placeholder="what's on your mind?" maxLength={120}></input>
-            <input type="file" accept="image/*" onChange={onFileChange}/>
-            <input type="submit" value="share"></input>
-        </form>
+        <NweetFactory userObj={userObj}></NweetFactory>
         <div>
             {nweets.map((nweet) => (
                 <Nweet key={nweet.id} 
