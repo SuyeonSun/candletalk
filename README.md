@@ -1,5 +1,1 @@
- ![스크린샷 2022-01-05 오전 11 59 07](https://user-images.githubusercontent.com/77823761/148197311-04192978-8e0a-487b-83b6-6cba67cdf69c.png)
-![스크린샷 2022-01-05 오전 11 59 22](https://user-images.githubusercontent.com/77823761/148197318-d4668c15-7756-486a-9f6c-19855bb01c65.png)
-![스크린샷 2022-01-05 오전 11 59 35](https://user-images.githubusercontent.com/77823761/148197320-dee85272-ac41-4741-84c7-1893e5c5eaab.png)
-![스크린샷 2022-01-05 오후 12 00 04](https://user-images.githubusercontent.com/77823761/148197323-4e816672-f12a-4adc-9055-86957f867af3.png)
-![스크린샷 2022-01-05 오후 12 00 14](https://user-images.githubusercontent.com/77823761/148197325-b80e0df9-c018-4a77-aa01-fbe99f25cfca.png)
+
