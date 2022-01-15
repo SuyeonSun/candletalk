@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nwitter/static/css/main.26777855.css",
-    "main.js": "/nwitter/static/js/main.5d92ffd3.js",
-    "index.html": "/nwitter/index.html",
-    "main.26777855.css.map": "/nwitter/static/css/main.26777855.css.map",
-    "main.5d92ffd3.js.map": "/nwitter/static/js/main.5d92ffd3.js.map"
+    "main.css": "/candletalk/static/css/main.26777855.css",
+    "main.js": "/candletalk/static/js/main.5b8c3ec8.js",
+    "index.html": "/candletalk/index.html",
+    "main.26777855.css.map": "/candletalk/static/css/main.26777855.css.map",
+    "main.5b8c3ec8.js.map": "/candletalk/static/js/main.5b8c3ec8.js.map"
   },
   "entrypoints": [
     "static/css/main.26777855.css",
-    "static/js/main.5d92ffd3.js"
+    "static/js/main.5b8c3ec8.js"
   ]
 }
